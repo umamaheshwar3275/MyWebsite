@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-label="Shop Inventory icon">
+  <rect width="160" height="160" rx="36" fill="#0f766e"/>
+  <path d="M48 62h64l-6 52H54L48 62z" fill="#ffffff"/>
+  <path d="M62 62c0-14 8-24 18-24s18 10 18 24" fill="none" stroke="#ffffff" stroke-width="8" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--
+    Personal business website.
+    Change your name, email, projects, and social links in js/script.js.
+    Change colors in css/style.css (the :root block at the top).
+  -->
+  <title>B Umamaheswara Rao | App Developer &amp; Business Website Developer</title>
+  <meta id="site-description" name="description" content="B Umamaheswara Rao, Android developer with 14+ years of experience. I build mobile apps and professional websites for businesses, startups, and individuals.">
+  <meta name="author" content="B Umamaheswara Rao">
+  <meta name="color-scheme" content="light">
+  <meta name="theme-color" content="#1d4ed8">
+
+  <meta id="og-title" property="og:title" content="B Umamaheswara Rao | App Developer &amp; Business Website Developer">
+  <meta id="og-description" property="og:description" content="B Umamaheswara Rao, Android developer with 14+ years of experience. I build mobile apps and professional websites for businesses, startups, and individuals.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="images/general/og-image.svg">
+  <meta property="og:image:alt" content="B Umamaheswara Rao, App Developer and Business Website Developer">
+
+  <link rel="icon" href="images/general/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Marks that JavaScript is available. Used for the mobile menu and fade-in sections. -->
+  <script>document.documentElement.classList.add("js");</script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="scroll-progress" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <div class="header-inner container">
+      <a class="logo" href="#home">
+        <img class="logo__mark" src="images/general/favicon.svg" alt="" width="32" height="32">
+        <span class="js-site-name">B Umamaheswara Rao</span>
+      </a>
+
+      <a class="header-cta btn btn--primary" href="#contact">Start a project</a>
+
+      <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
+        <span class="nav-toggle__icon" aria-hidden="true">
+          <span></span>
+          <span></span>
+          <span></span>
+        </span>
+      </button>
+
+      <nav class="site-nav" id="site-nav" aria-label="Primary">
+        <ul>
+          <li><a href="#home" aria-current="true">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" tabindex="-1">
+    <section id="home" class="hero">
+      <div class="container hero-layout">
+        <div class="hero-copy">
+          <p class="hero-kicker"><span class="hero-kicker__dot" aria-hidden="true"></span> Open for new projects</p>
+          <h1>App Developer &amp; <span class="hero-accent">Business Website Developer</span></h1>
+          <p class="hero-text">I build mobile apps and professional websites for businesses, startups and individuals.</p>
+          <div class="hero-actions">
+            <a class="btn btn--primary" href="#projects">View My Work</a>
+            <a class="btn btn--secondary" href="#contact">Contact Me</a>
+          </div>
+          <ul class="hero-stats">
+            <li><strong>14+</strong><span>Years building apps</span></li>
+            <li><strong>Android</strong><span>Kotlin and Java</span></li>
+            <li><strong>Web</strong><span>Business websites</span></li>
+          </ul>
+        </div>
+
+        <aside class="hero-device" aria-label="Highlights">
+          <div class="hero-device__frame">
+            <div class="hero-device__bar" aria-hidden="true"></div>
+            <p class="hero-panel__label">At a glance</p>
+            <ul class="hero-points">
+              <li><strong>14+ years</strong> of Android development</li>
+              <li>Kotlin, Java, and modern Android</li>
+              <li>Websites for businesses and individuals</li>
+              <li>Direct communication on each project</li>
+            </ul>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section id="about" class="section section--surface reveal">
+      <div class="container">
+        <div class="section-header">
+          <p class="eyebrow">Introduction</p>
+          <h2>About Me</h2>
+        </div>
+        <div class="about-layout">
+          <div class="profile">
+            <div class="profile-photo">
+              <img id="profile-image" src="images/profile/profile-placeholder.svg" width="400" height="400" alt="Portrait placeholder" decoding="async">
+            </div>
+            <p class="profile-badge"><strong>14+</strong> years</p>
+          </div>
+          <div class="about-copy">
+            <p class="about-lead">I am an Android developer and Project Lead with 14+ years of experience. I develop mobile apps and websites for businesses, startups, and individuals.</p>
+            <p>My primary technologies are Kotlin, Java, and modern Android development. I focus on practical problem solving and on software that stays clear and reliable after it ships.</p>
+            <p>That includes production-ready Android applications and simple, professional websites for people who need a trustworthy online presence.</p>
+            <ul class="skill-list">
+              <li>Kotlin</li>
+              <li>Java</li>
+              <li>Modern Android</li>
+              <li>Business websites</li>
+              <li>Project lead</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section reveal">
+      <div class="container">
+        <div class="section-header">
+          <p class="eyebrow">Portfolio</p>
+          <h2>My Apps &amp; Projects</h2>
+          <p>A selection of mobile applications and projects I have worked on.</p>
+        </div>
+        <div id="project-list" class="project-grid"></div>
+        <noscript>
+          <p class="empty-note">JavaScript is turned off, so the project cards cannot be shown. The contact link below still works.</p>
+        </noscript>
+      </div>
+    </section>
+
+    <section id="services" class="section section--surface reveal">
+      <div class="container">
+        <div class="section-header">
+          <p class="eyebrow">Offerings</p>
+          <h2>Services</h2>
+          <p>Practical help for new apps, new websites, and existing products.</p>
+        </div>
+        <ul class="service-grid">
+          <li class="card service-card">
+            <div class="service-card__top">
+              <div class="service-card__icon" aria-hidden="true">
+                <svg class="icon" viewBox="0 0 24 24" focusable="false">
+                  <rect x="7" y="3" width="10" height="18" rx="2" fill="none" stroke="currentColor" stroke-width="1.75"/>
+                  <path d="M11 18h2" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"/>
+                </svg>
+              </div>
+              <span class="service-card__index" aria-hidden="true">01</span>
+            </div>
+            <h3>Android App Development</h3>
+            <p>Build reliable and user-friendly Android applications using modern Android development practices.</p>
+          </li>
+          <li class="card service-card">
+            <div class="service-card__top">
+              <div class="service-card__icon" aria-hidden="true">
+                <svg class="icon" viewBox="0 0 24 24" focusable="false">
+                  <rect x="3.5" y="3.5" width="7" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.75"/>
+                  <rect x="13.5" y="3.5" width="7" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.75"/>
+                  <rect x="3.5" y="13.5" width="7" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.75"/>
+                  <rect x="13.5" y="13.5" width="7" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.75"/>
+                </svg>
+              </div>
+              <span class="service-card__index" aria-hidden="true">02</span>
+            </div>
+            <h3>Mobile App Development</h3>
+            <p>Turn ideas into functional mobile applications designed around business and user requirements.</p>
+          </li>
+          <li class="card service-card">
+            <div class="service-card__top">
+              <div class="service-card__icon" aria-hidden="true">
+                <svg class="icon" viewBox="0 0 24 24" focusable="false">
+                  <rect x="3" y="5" width="18" height="14" rx="2" fill="none" stroke="currentColor" stroke-width="1.75"/>
+                  <path d="M3 9h18" stroke="currentColor" stroke-width="1.75"/>
+                </svg>
+              </div>
+              <span class="service-card__index" aria-hidden="true">03</span>
+            </div>
+            <h3>Business Website Development</h3>
+            <p>Create professional, responsive websites for businesses, startups, professionals and individuals.</p>
+          </li>
+          <li class="card service-card">
+            <div class="service-card__top">
+              <div class="service-card__icon" aria-hidden="true">
+                <svg class="icon" viewBox="0 0 24 24" focusable="false">
+                  <path d="M20 12a8 8 0 1 1-2.2-5.5" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"/>
+                  <path d="M20 4.5V9h-4.5" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </div>
+              <span class="service-card__index" aria-hidden="true">04</span>
+            </div>
+            <h3>App &amp; Website Improvements</h3>
+            <p>Improve existing applications and websites with new features, UI improvements, bug fixes and performance improvements.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="why" class="section section--soft reveal">
+      <div class="container">
+        <div class="section-header">
+          <p class="eyebrow">Approach</p>
+          <h2>Why Work With Me</h2>
+          <p>Experience, careful development, and direct communication.</p>
+        </div>
+        <ul class="why-list">
+          <li class="card why-item">
+            <span class="why-index" aria-hidden="true">01</span>
+            <p>14+ years of Android development experience</p>
+          </li>
+          <li class="card why-item">
+            <span class="why-index" aria-hidden="true">02</span>
+            <p>Clean and maintainable development</p>
+          </li>
+          <li class="card why-item">
+            <span class="why-index" aria-hidden="true">03</span>
+            <p>Focus on reliable and user&#8209;friendly products</p>
+          </li>
+          <li class="card why-item">
+            <span class="why-index" aria-hidden="true">04</span>
+            <p>Direct communication about project requirements</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact reveal">
+      <div class="container">
+        <div class="contact-layout">
+        <div class="section-header">
+          <p class="eyebrow">Contact</p>
+          <h2>Have a Project in Mind?</h2>
+          <p>Whether you need a mobile app, Android application or a professional business website, let's discuss your idea.</p>
+        </div>
+        <form id="contact-form" class="contact-form" action="https://formsubmit.co/kittu.digital.appswork@gmail.com" method="POST">
+          <input type="hidden" name="_subject" value="New project inquiry from the website">
+          <input type="hidden" name="_template" value="table">
+          <input type="hidden" name="_captcha" value="false">
+          <div class="form-honey" aria-hidden="true">
+            <input type="text" name="_honey" tabindex="-1" autocomplete="off">
+          </div>
+          <div class="form-grid">
+            <label>
+              Your name
+              <input type="text" name="name" required maxlength="80" autocomplete="name">
+            </label>
+            <label>
+              Your email
+              <input type="email" name="email" required maxlength="120" autocomplete="email">
+            </label>
+          </div>
+          <label>
+            What do you need
+            <select name="service">
+              <option>Android app</option>
+              <option>Mobile app</option>
+              <option>Business website</option>
+              <option>Improvements to an existing app or website</option>
+              <option>Not sure yet</option>
+            </select>
+          </label>
+          <label>
+            Message
+            <textarea name="message" required maxlength="2000" rows="5" placeholder="Tell me a little about the project"></textarea>
+          </label>
+          <button type="submit" class="btn btn--primary">Send message</button>
+          <p id="form-status" class="form-status" role="status"></p>
+        </form>
+        </div>
+        <nav id="social-links" class="social-links" aria-label="Other profiles" hidden></nav>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <time id="year" datetime="2026">2026</time> <span class="js-site-name">B Umamaheswara Rao</span>. All rights reserved.</p>
+      <a class="footer-cta" href="#contact">Start a project</a>
+      <nav class="footer-nav" aria-label="Footer">
+        <ul>
+          <li><a href="#home" aria-current="true">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

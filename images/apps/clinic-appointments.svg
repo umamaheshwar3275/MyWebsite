@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-label="Clinic Appointments icon">
+  <rect width="160" height="160" rx="36" fill="#1d4ed8"/>
+  <rect x="40" y="46" width="80" height="72" rx="10" fill="#ffffff"/>
+  <path d="M40 68h80" stroke="#1d4ed8" stroke-width="6"/>
+  <rect x="58" y="36" width="8" height="18" rx="3" fill="#d5e3f2"/>
+  <rect x="94" y="36" width="8" height="18" rx="3" fill="#d5e3f2"/>
+  <path d="M80 82v22M69 93h22" stroke="#1d4ed8" stroke-width="6" stroke-linecap="round"/>
+</svg>
